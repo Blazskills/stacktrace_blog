@@ -1,0 +1,131 @@
+:root {
+  --bg-color: #000000;
+  --text-color: #fff;
+  --accent-color: #8400ff;
+  --border: rgba(255, 255, 255, 0.15);
+}
+
+* {
+  margin: 0px 0px;
+  padding: 0px 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+::selection {
+  background-color: var(--accent-color);
+  color: var(--text-color);
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  margin: 0px 0px;
+}
+
+.four-zero-four-container {
+    position: absolute;
+    /* top: 80px;
+    bottom: 80px; */
+  width: 68%;
+  height: 50%;
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
+
+}
+
+.error-404{
+    font-size: 300px;
+    font-weight: 900;
+    color: #000;
+    text-shadow: -1px -1px 0 #8400ff, 1px 1px 0 #ff005a;
+    letter-spacing: -20px;
+}
+
+
+
+.home-route{
+    font-family: montserrat,sans-serif;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #ff005a;
+    text-decoration: none;
+    border: 2px solid;
+    background: 0 0;
+    padding: 10px 40px;
+    font-size: 14px;
+    font-weight: 700;
+    transition: .2s all;
+}
+
+.notfound{
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 13px;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 700px) {
+    .error-404 {
+        font-size: 250px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .error-404 {
+        font-size: 200px;
+    }
+    .notfound{
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 10px;
+        color: #fff;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .error-404 {
+        font-size: 180px;
+    }
+    .notfound{
+        font-size: 17px;
+        font-weight: 700;
+        letter-spacing: 8px;
+        color: #fff;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 370px) {
+    .error-404 {
+        font-size: 130px;
+    }
+    .notfound{
+        font-size: 16px;
+        letter-spacing: 3px;
+    }
+    
+}

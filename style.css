@@ -1,0 +1,134 @@
+body, * {
+  margin: 0;
+  padding: 0;
+  font-family: "Space Grotesk", sans-serif;
+  background-color: rgb(255, 255, 255);
+
+}
+
+
+
+.container {
+  background-image: url("assets/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: auto;
+  /* color: #ffffff; */
+  /* padding-top: 100px; */
+  /* margin:  auto, 10px,; */
+  margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+  /* padding: 15px 5px 0 15px;  */
+  padding: 30px 10px;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: none;
+  border-radius: 100px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.child-container {
+    background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  /* /* justify-content: center; 
+    justify-items: center; */
+  /* justify-self: center; */
+}
+
+.company-name {
+  font-family: "Space Grotesk", sans-serif;
+  background-color: transparent;
+  font-weight: bold;
+  color: black;
+  margin: 0px;
+  margin-bottom: 10px;
+  text-overflow: clip;
+  /* text-align: justify; */
+}
+
+
+
+
+.links-feed{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.port-one {
+    background-color: #252b48d5;
+    color: #ffffff;
+    text-decoration: none;
+
+    margin: 5px 0px;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+}
+.port-one:hover{
+    transform: translateX(-5px);
+}
+
+h4{
+    font-size: 19px;
+}
+
+/* 252B48 */
+
+/* .card-link{
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent !important;
+
+} */
+
+
+.social-icons{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;  */
+    align-items: center;
+    justify-content: center;
+}
+
+
+.social-icons{
+    width: 30px;
+    background-color: transparent !important;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin: auto;
+    cursor: pointer;
+
+}
+
+.iconz:hover{
+    transform: translateX(-5px);
+    /* background-color: grey; */
+}
+
+.iconz{
+    transition: transform 0.2s ease-in-out;
+
+}
